@@ -4,7 +4,7 @@ Group Project #1
 
 ## Description
 
-
+This web application was designed to help users create nutritionally-balanced meals using food recipes and nutritional facts about the included ingredients. They should be able to save their recipes and ingredients lists using the box located at the bottom of the web application.
 
 ## User Story
 
@@ -17,19 +17,19 @@ SO THAT I can create a nutritionally-balanced meal
 ## Acceptance Criteria
 
 ```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours of 9am to 5pm
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+GIVEN I am using the BetterMeals web application
+WHEN I open web app
+THEN I can see the homepage for BetterMeals
+WHEN
+THEN
+WHEN
+THEN
+WHEN
+THEN
+WHEN
+THEN
+WHEN
+THEN
 ```
 
 ## Project Requirements
@@ -93,7 +93,9 @@ The following steps were taken to complete the project:
 ## Usage
 
 - Go to the BetterMeals web application
--
+- User can search for the food recipes they are interested in cooking
+- User can then search for the nutritional facts for each of the ingredients in their interested recipe to ensure that it is appropriate for their diet/plan
+- Finally, user can locally save their recipes and ingredients in the box at the bottom of the application to have it for when they choose to make the nutritionally-balanced meal
 
 ## Credits
 
