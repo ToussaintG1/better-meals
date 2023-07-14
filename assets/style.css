@@ -1,0 +1,19 @@
+
+  .header {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .top-nav li {
+    float: left;
+    margin: 10px;
+  } 
+  .header img {
+    border-radius: 50%;
+    width: 10%;
+}
