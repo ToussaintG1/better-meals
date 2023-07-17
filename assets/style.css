@@ -1,25 +1,95 @@
 
   .header {
+    margin-left: 10px;
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
     align-items: center;
 
   }
-
-  .top-nav ul {
+.top-nav1 a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+.top-nav2 a {
+    color: Black;
+    text-decoration: none;
+}
+  .top-nav1 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  .top-nav li {
+  .top-nav1 li {
+    color: lightseagreen;
     float: left;
     margin: 10px;
   } 
   .header img {
+    margin-top: px;
     border-radius: 50%;
     width: 10%;
 }
+.header2 {
+    margin-left: 50px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+  .header2 img {
+    border-radius: 50%;
+    width: 65%;
+  }
+    .top-nav2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .top-nav2 li {
+        font-size: 24px;
+        float: left;
+        margin: 10px;
+      } 
+    .top-nav2 input {
+        justify-content: flex-end;
+        margin-top: 14px;
+        margin-left: 50px;
+    }
+    .top-nav2 i {
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    li a:hover {
+        -moz-transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+      }
+      
+      
+      /*Underline Hover Effect*/
+      li {
+        position:relative;
+      }
+      
+      li::after {
+          content: '';
+          display: block;
+          width: 0;
+          position:absolute;
+          left:50%;
+          height: 3px;
+          background: #0077ff;
+          transition: cubic-bezier(.77,0,.18,1) 1s;
+      }
+      
+      li:hover::after {
+          width: 80%;
+          left: 10%;
+      }
 
 /* CSS for Recipe and Ingredients LocalStorage Saver */
 
