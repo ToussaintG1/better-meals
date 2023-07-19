@@ -121,6 +121,7 @@
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    width: 100%
   }
 
   .description {
@@ -152,6 +153,8 @@
     transition: all 0.3s ease-in-out;
   }
   
+/* */
+
   span {
     color: orange;
     font-size: larger;
