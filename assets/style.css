@@ -112,6 +112,129 @@
     left: 10%;
   }
 
+  /* CSS for HOME */
+
+  span {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+  }
+ 
+ #home {
+    margin-top: 150px;
+    margin-left: 300px;
+    /* flex-wrap: wrap; */
+    margin-bottom: 250px;
+  }
+  .main-header {
+    display: flex;
+    align-items: center;
+  }
+  .main-header h1 {
+    display: inline-block;
+    margin-bottom: 11%;
+    color: lightblue;
+    width: 800px;
+  }
+  .main-description {
+    margin-top: -170px;
+    display: flex;
+    width: 600px;
+    line-height: 20px;
+  }
+  .main-image img{
+    border-radius: 50%;
+    width: 40%;
+    margin-left: 130px;
+  }
+  /* CSS for Why Eat Healthy */
+
+  span {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+  }
+ 
+ #why-eat-healthy {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    background-color: #F0F0F0;
+    margin-top: 100px;
+    padding-left: 300px;
+    /* margin-bottom: 100px; */
+  }
+  .main-header2 {
+    display: flex;
+    align-items: center;
+    justify-content: s;
+    margin-bottom: 20px;
+  }
+  .main-header2 h1 {
+    margin-right: 300px;
+    display: inline-block;
+    margin-bottom: 11%;
+    color: lightblue;
+    width: 800px;
+  }
+  .main-description2 {
+    margin-right: 300px;
+    margin-top: -230px;
+    display: flex;
+    width: 600px;
+    line-height: 20px;
+  }
+  .main-image2 img{
+    margin-top: 150px;
+    border-radius: 50%;
+    width: 500%;
+    margin-left: -270px;
+    padding: 30px;
+  }
+
+  /* Nutritional Facts CSS */
+
+  #nutritional-facts {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    background-color: black;
+    /* margin-top: 100px; */
+    padding-left: 300px;
+    margin-bottom: 100px;
+    
+  }
+  .main-header3 {
+    display: flex;
+    align-items: center;
+    justify-content: s;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .main-header3 h1 {
+    margin-right: 300px;
+    display: inline-block;
+    margin-bottom: 11%;
+    color: lightblue;
+    width: 800px;
+  }
+
+  .main-header3 span {
+    color: white;
+  }
+  .main-description3 {
+    color: white;
+    margin-right: 300px;
+    margin-top: -230px;
+    display: flex;
+    width: 600px;
+    line-height: 20px;
+  }
+  .main-image3 img{
+    margin-top: 150px;
+    border-radius: 50%;
+    width: 500%;
+    margin-left: -270px;
+    padding: 30px;
+  }
 /* CSS for Recipe and Ingredients LocalStorage Saver */
 
   textarea {
@@ -151,38 +274,105 @@
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
-  span {
-    color: black;
-    font-size: larger;
-    font-weight: bolder;
-  }
- 
-  .container {
-    margin-top: 100px;
-    margin-left: 300px;
-    /* flex-wrap: wrap; */
+
+  /* About Us */
+  #about-us {
+    padding-top: 100px;
+    padding-bottom: 300px;
+    background-color: #F0F0F0;
+    /* margin-top: 100px; */
+    padding-left: 300px;
     margin-bottom: 100px;
+    
   }
-  .main-header {
-    display: flex;
+  .main-header4 {
+    margin-right: 160px;
     align-items: center;
-    justify-content: s;
+    margin-bottom: -100px;
+    color: black;
+    text-align: center;
   }
-  .main-header h1 {
+  .main-header4 h1 {
+    margin-right: 160px;
+    text-align: center;
     display: inline-block;
     margin-bottom: 11%;
     color: lightblue;
     width: 800px;
   }
-  .main-description {
-    margin-top: -170px;
+
+  .main-header4 span {
+    
+    text-align: center;
+    color: black;
+  }
+  .main-description4 {
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: black
+    margin-top: -300px;
+    width: 1000px;
+    line-height: 25px;
+  }
+
+  /* Our Team CSS */
+
+  #our-team{
+    padding-top: 100px;
+    padding-bottom: 300px;
+    /* margin-top: 100px; */
+    padding-left: 300px;
+    margin-bottom: 100px;
+    
+  }
+  .main-header5 {
+    margin-right: 160px;
+    align-items: center;
+    margin-bottom: -100px;
+    color: black;
+    text-align: center;
+  }
+  .main-header5 h1 {
+    font-size: 55px;
+    margin-right: 163px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 11%;
+    color: black;
+    width: 800px;
+  }
+.team {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+.team h1 {
+  margin-right: 300px;
+    display: inline-block;
+    margin-bottom: 11%;
+    color: black;
+    width: 1000px;
+}
+  
+.team img {
+    border-radius: 50%;
+    width: 30%;
+    /* margin-left: -270px; */
+    padding: 30px;
+}
+
+  .team-description {
+    /* margin-right: 300px;
+    margin-top: -230px; */
     display: flex;
     width: 600px;
     line-height: 20px;
-  }
-  .main-image img{
-    border-radius: 50%;
-    width: 40%;
-    margin-left: 130px;
+    color: black;
+  
   }
