@@ -51,5 +51,5 @@ function fetchRecipe() {
 })
 }
 
-searchButton.addEventListener('click', fetchRecipe)
+searchButton.addEventListener('click', fetchRecipe);
 
