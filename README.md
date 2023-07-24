@@ -61,12 +61,12 @@ THEN
 
 ## Accessing the Repo or Webpage:
 
-- GitHub Repo URL:
-- GitHub Pages WebPage Deployment URL:
+- GitHub Repo URL: https://github.com/ToussaintG1/better-meals
+- GitHub Pages WebPage Deployment URL: https://ToussaintG1.github.io/better-meals/
 
-## Webpage Screenshot
+## Webpage Gif
 
-![module five challenge webpage screenshot](./assets/images/kevindimayuga.github.io_module-five-challenge.png)
+![better meals gif](./images/kevindimayuga.github.io_better-meals-gif.gif)
 
 ## Table of Contents
 
