@@ -50,3 +50,19 @@ function fetchRecipe() {
 }
 
 searchButton.addEventListener('click', fetchRecipe)
+
+
+// Recipe and Ingredients localStorage
+
+var recipeInput = document.querySelector('#userText')
+var recipeBtn = document.querySelector('#recipeBtn')
+recipeBtn.addEventListener("click", function () {
+    localStorage.setItem('recipe', recipeInput.value);
+})
+function getData() {
+    document.querySelector("#userText").value = localStorage.getItem('recipe');
+}
+getData();
+
+
+var recipeEl = document.querySelector(".saveBtn");
