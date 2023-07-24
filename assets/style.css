@@ -392,8 +392,6 @@ textarea {
 
 }
 
-.team-description h1 {}
-
 .team-description {
   /* margin-right: 300px;
   /* margin-top: -230px; */
@@ -402,6 +400,23 @@ textarea {
   line-height: 20px;
   color: black;
 }
+
+/* Contact Us CSS */
+
+ .contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.contact-description {
+  width: 600px;
+  line-height: 20px;
+  color: black;
+ }
+ .contact-description i {
+  margin-right: 10px;
+ }
 
   /* Footer */
 

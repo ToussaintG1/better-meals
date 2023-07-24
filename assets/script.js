@@ -5,7 +5,7 @@ var recipeAPIKey = "ee23ef98a6daf89098efa5d42c0e32fc"
 var nutritionURL = "https://trackapi.nutritionix.com/v2/natural/nutrients"
 var recipeURL = "https://api.edamam.com/api/recipes/v2";
 
-var x = document.getElementById("input-element");
+var x = document.getElementById("input-element")
 var search = document.querySelector("#search")
 var searchButton = document.querySelector("#search-button")
 
