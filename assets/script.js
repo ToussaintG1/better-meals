@@ -6,6 +6,8 @@ var nutritionURL = "https://trackapi.nutritionix.com/v2/natural/nutrients"
 var recipeURL = "https://api.edamam.com/api/recipes/v2";
 
 var x = document.getElementById("input-element");
+var search = document.querySelector("#search")
+var searchButton = document.querySelector("#search-button")
 
 // Nutritionix API ID: 7f8298cc
 
@@ -21,67 +23,33 @@ fetch(nutritionURL, {
     },
     body: JSON.stringify({
         //"query": "for breakfast i ate 2 eggs, bacon, and french toast",
-        "query": x.value,
+        "query": 'tofu',
         "timezone": "US/Eastern"
     })
 })
 .then(function(response){
-    console.log (response)
+    // console.log (response)
     return response.json()
 })
 .then(function(data){
     console.log (data)
 }) 
 
-fetch(recipeURL, {
-    method: "POST",
-    headers: {
-        "Content-Type": "application/json",
-        "x-app-id":"afa2c155", 
-        "x-app-key": recipeAPIKey
 
-    },
-    body: JSON.stringify({
-        //"query": "for breakfast i ate 2 eggs, bacon, and french toast",
-        "query": x.value,
-        "timezone": "US/Eastern"
-    })
-})
-.then(function(response){
+
+function fetchRecipe() {
+    var userInput = search.value
+    fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${userInput}&app_id=afa2c155&app_key=ee23ef98a6daf89098efa5d42c0e32fc`)
+    .then(function(response){
     console.log (response)
     return response.json()
 })
 .then(function(data){
     console.log (data)
+
+
 })
-// Function Startup, need to work on to get both APIs working
+}
 
-// function getForecast(lat,lon) {
-//     var forecastUrl = ` https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`
-//     fetch(forecastUrl)
-//         .then(function(response){
-//             return response.json()
-//         })
-//         .then(function(data) {
-//             console.log('Forecast', data);
-//             renderFiveDay(data);
-//         })
+searchButton.addEventListener('click', fetchRecipe)
 
-
-// function getCoordinates(){
-//     var cityName = document.querySelector('#city').value
-//     var geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`
-
-//     fetch(geoUrl)   
-//         .then(function(response){
-//             return response.json()
-//         })
-//         .then(function(data) {
-//             console.log(data);
-//             var {lat,lon} = data[0];
-//             getForecast(lat,lon);
-//         })
-//         var displayCity
-//         displayCity = document.querySelector('#cityName')
-//         displayCity.textContent = cityName
-// }

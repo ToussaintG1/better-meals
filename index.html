@@ -14,77 +14,210 @@
     <title>Better Meals</title>
 </head>
 
-<body>
-
-    <!-- navbar 1 -->
-    <div class="header">
-        <div class="logo">
-            <h1><img src="./images/Meal1.jpeg" alt=""> Better Meals</h1>
-        </div>
-        <div class="top-nav1">
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">What We Do</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- navbar 2 -->
-    <div class="header2">
-        <div class="logo">
-            <img src="./images/plate2.jpeg" alt="">
-        </div>
-        <div class="top-nav2">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Why Eat Healthy?</a></li>
-                <li><a href="#">Nutritional Facts</a></li>
-                <li><a href="#">Recipes</a></li>
-                <input type="text" placeholder="Search.."><i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                
-                
-            </ul>
-        </div>
-    </div>
-
-    <!-- main container section -->
-    <div class="container">
-        <div class="main-header">
-            <h1> Your Nutritional Balance Companion <br><span> BetterMeals</span>  </h1>
-             <div class="main-image">
-            <img src="./images/Better Meals Main.jpg" alt="">
-        </div>
-        </div>
-        <div class="main-description">
-            <p>Welcome to Better Meals, the ultimate app
-                designed to empower you in creating nutritionally-balanced
-                and delicious meals that support your health and well-being.
-                Say goodbye to the hassle of planning and guessing about your meals'
-                nutritional content. With Better Meals, you can effortlessly craft meals
-                that are not only tasty but also optimized to meet your dietary goals and
-                nutritional needs.</p>
-        </div>
-    </div>
-    
-    <!-- div for recipe localStorage saver -->
-    <div id="recipes" class="row">
-        <div class="col-2 col-md-1 hour text-center py-3">Recipes</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-            <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-    </div>
-    
-    <!-- div for ingredient localStorage saver -->
-    <div id="ingredients" class="row past">
-        <div class="col-2 col-md-1 hour text-center py-3">Ingredients</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-            <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-    </div>
+           <!-- Navbar 1 -->
+           <div class="header">
+            <div class="logo">
+                <img src="./images/Meal1.jpeg" alt="">
+                <h1> Better Meals</h1>
+            </div>
+            <div class="top-nav1">
+                <ul>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#our-team">Our Team</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+         </div>
+         
+         
+                    <!-- Navbar 2 -->
+         <div class="header2">
+            <div class="logo">
+                <img src="./images/plate2.jpeg" alt="">
+            </div>
+            <div class="top-nav2">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#why-eat-healthy">Why Eat Healthy?</a></li>
+                    <li><a href="#nutritional-facts">Nutritional Facts</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <input id="search" type="text" placeholder="Search..."><i id="search-button" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                   
+                   
+                </ul>
+            </div>
+         </div>
+         
+         
+            <div id="home">
+                <div class="main-header">
+                    <h1> Your Nutritional Balance Companion <br><span> BetterMeals</span>  </h1>
+                     <div class="main-image">
+                    <img src="./images/Better Meals Main.jpg" alt="">
+                </div>
+                </div>
+                <div class="main-description">
+                    <p>Welcome to Better Meals, the ultimate app
+                        designed to empower you in creating nutritionally-balanced
+                        and delicious meals that support your health and well-being.
+                        Say goodbye to the hassle of planning and guessing about your meals'
+                        nutritional content. With Better Meals, you can effortlessly craft meals
+                        that are not only tasty but also optimized to meet your dietary goals and
+                        nutritional needs.</p>
+                </div> 
+              
+            </div>
+         
+         
+         
+         
+         <!-- Why Eat Healthy? -->
+         <div id="why-eat-healthy">
+            <div class="main-header2">
+                <h1>Why Eat Healhty? <br><span> Improving Your Life</span>  </h1>
+                 <div class="main-image2">
+                <img src="./images/Eat Healthy.jpeg" alt="">
+            </div>
+            </div>
+            <div class="main-description2">
+                <p>Eating healthy is of utmost importance as it directly impacts our
+                    overall well-being and quality of life. A balanced and nutritious diet
+                    provides essential nutrients, vitamins, and minerals that support our
+                    body's functions, boost the immune system, and help prevent various
+                    chronic illnesses. A healthy diet can also aid in maintaining a healthy
+                    weight, reducing the risk of obesity-related conditions, and promoting
+                    cardiovascular health. Additionally, good nutrition contributes to better
+                    mental clarity and emotional stability, enhancing cognitive function and
+                    promoting a positive outlook on life. By making conscious choices to eat
+                    healthily, we invest in our long-term health and vitality, enabling us to
+                    lead active, fulfilling lives and enjoy each day to the fullest.</p>
+            </div> 
+          
+         </div>
+         
+         
+         <!-- Nutritional Facts -->
+         
+         
+         <div id="nutritional-facts">
+            <div class="main-header3">
+                <h1>Nutrional Facts <br><span> What Are Nutritional Facts? </span>  </h1>
+                 <div class="main-image3">
+                <img src="./images/nutritional facts.jpeg" alt="">
+            </div>
+            </div>
+            <div class="main-description3">
+                <p>Nutritional facts, often found on food labels or packaging,
+                    provide vital information about the composition of a food product
+                    and its impact on our health. These facts include details such as
+                    serving size, calories, macronutrients (such as carbohydrates, fats,
+                    and proteins), micronutrients (such as vitamins and minerals), and other
+                    important components like fiber and sugar content. Understanding and
+                    paying attention to nutritional facts empower us to make informed food
+                    choices, tailor our diets to meet specific dietary needs or goals, and
+                    maintain a balanced and healthy lifestyle. Whether managing weight,
+                    controlling blood sugar levels, or addressing specific nutritional
+                    deficiencies, being aware of nutritional facts is crucial in promoting
+                    overall well-being and making conscious decisions about the foods we
+                    consume.</p>
+            </div> 
+          
+         </div>
+         
+         
+         
+         
+         
+         
+         <body>
+           
+            <!-- div for recipe/ingredient localStorage saver -->
+            <div id="recipes" class="row">
+                <div class="col-2 col-md-1 hour text-center py-3">Recipes</div>
+                <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
+                <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+                    <i class="fas fa-save" aria-hidden="true"></i>
+                </button>
+            </div>
+           
+            <!-- div for recipe/ingredient localStorage saver -->
+            <div id="ingredients" class="row past">
+                <div class="col-2 col-md-1 hour text-center py-3">Ingredients</div>
+                <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
+                <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+                    <i class="fas fa-save" aria-hidden="true"></i>
+                </button>
+            </div>
+         
+         
+            <!-- About Us -->
+            <div id="about-us">
+                <div class="main-header4">
+                    <h1>About Us <br><span> Who Is BetterMeals?</span>  </h1>
+                </div>
+                <div class="main-description4">
+                    <p>BetterMeals is your ultimate destination for nutritious and delicious
+                        cooking! At BetterMeals, we understand that eating healthy is
+                        essential for overall well-being, and we are committed to empowering
+                        our users to make informed food choices. Our platform allows you to
+                        search for a wide variety of food recipes tailored to your preferences
+                         and dietary needs. Once you find a recipe that catches your eye,
+                         we go the extra mile by providing detailed nutritional facts for
+                         each ingredient, ensuring that the dish aligns perfectly with your
+                         diet or health plan. Whether you're a health-conscious individual,
+                         have specific dietary requirements, or simply want to explore new
+                         flavors without compromising on your health, BetterMeals is your
+                         one-stop solution. </p>
+                </div> 
+              
+            </div>
+             <!-- Contact Us -->
+             <div id="our-team">
+                <div class="main-header5">
+                    <h1> Our Team  </h1>
+                        <div class="team">
+                                <img src="./images/Kevin .JPG" alt="Image of Kevin">
+                                <div class="team-description">
+                                    <h1>Kevin Dimayuga </h1>
+                                    <p> My name is Kevin Dimayuga. I enjoy
+                                        learning how to code, playing basketball,
+                                        volleyball and video games. I currently work in
+                                        career services and am excited for this next part
+                                        in my professional career.</p>
+                                </div> 
+                        </div>
+                        <div class="team">
+                            <img src="./images/Johnnae Brown.JPG" alt="Image of Kevin">
+                            <div class="team-description">
+                                <h1>Johnnae Brown</h1>
+                                <p> Hello my name is Johnnae Brown. 
+                                    My hobbies are cooking, gardening and 
+                                    exercising. Over the last ten years I have been 
+                                    in the medical field. I am excited to learn coding while 
+                                    pursuing the next chapter of my professional development.</p>
+                            </div> 
+                    </div>
+                    <div class="team">
+                        <img src="./images/Profile pic.jpg" alt="Image of Kevin">
+                        <div class="team-description">
+                            <h1>Toussaint Gilbert </h1>
+                            <p> Hello! My name is Toussaint. I'm an 18-year-old aspiring 
+                                computer scientist born on March 7th, 2005, in the vibrant city 
+                                of Chicago. Growing up in the dynamic neighborhood of Lincoln Park, 
+                                I was inspired by my mother, a strong businesswoman who owns a 
+                                successful salon in our community. Her determination and entrepreneurial 
+                                spirit have influenced my own pursuit of excellence. From an early age, 
+                                I developed a deep fascination with technology and the intricate 
+                                science behind computers. This passion has driven me to explore the 
+                                ever-evolving world of computer science. Currently, I am pursuing a 
+                                bootcamp course at Northwestern University, where I am acquiring the 
+                                foundational knowledge and practical skills necessary for success in this 
+                                field.</p>
+                        </div> 
+                </div>
+                    </div>
+                </div>
+            </div>
     
     <!-- jQuery -->
     <script src="jquery-3.6.4.min.js"></script>
