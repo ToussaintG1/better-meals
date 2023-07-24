@@ -10,9 +10,8 @@ var search = document.querySelector("#search")
 var searchButton = document.querySelector("#search-button")
 
 // Nutritionix API ID: 7f8298cc
-
-
 // Edamam API ID: afa2c155
+
 fetch(nutritionURL, {
     method: "POST",
     headers: {
@@ -36,7 +35,6 @@ fetch(nutritionURL, {
 }) 
 
 
-
 function fetchRecipe() {
     var userInput = search.value
     fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${userInput}&app_id=afa2c155&app_key=ee23ef98a6daf89098efa5d42c0e32fc`)
@@ -52,4 +50,3 @@ function fetchRecipe() {
 }
 
 searchButton.addEventListener('click', fetchRecipe)
-
