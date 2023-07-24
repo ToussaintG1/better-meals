@@ -340,15 +340,15 @@ textarea {
 
 
 #our-team{
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-bottom: 300px;
-  /* margin-top: 100px; */
+  /* margin-top: 100px;
   padding-left: 300px;
   margin-bottom: 100px;
- 
+  */
 }
 .main-header5 {
-  margin-right: 160px;
+  /* margin-right: 160px; */
   align-items: center;
   margin-bottom: -100px;
   color: black;
@@ -356,41 +356,44 @@ textarea {
 }
 .main-header5 h1 {
   font-size: 55px;
-  margin-right: 163px;
-  text-align: center;
-  display: inline-block;
+   /* margin-right: 163px; */
+  /* text-align: center;  */
   margin-bottom: 11%;
   color: black;
-  width: 800px;
+  /* width: 800px; */
+  /* margin-left: 150px; */
 }
 .team {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   color: white;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 
 .team h1 {
-margin-right: 300px;
-  display: inline-block;
   margin-bottom: 11%;
   color: black;
-  width: 1000px;
+  /* padding-right: 200px; */
 }
 .team img {
   border-radius: 50%;
-  width: 30%;
-  /* margin-left: -270px; */
+  width: 15%;
+  /* margin-right: 300px; */
   padding: 30px;
+
+}
+.team-description h1 {
+
 }
 
 
 .team-description {
   /* margin-right: 300px;
-  margin-top: -230px; */
-  display: flex;
+  /* margin-top: -230px; */ 
+  /* display: flex; */ 
   width: 600px;
   line-height: 20px;
   color: black;
